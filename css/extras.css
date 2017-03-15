@@ -1,0 +1,36 @@
+.spec ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.spec-res ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.spec{
+    margin-top: 10px;
+}
+.spec-res{
+   margin-top: 10px; 
+   
+}
+.first{
+    font-weight:bold;
+    margin-left:40px
+}
+p.des{
+    padding: 5px 2px;
+    text-align: justify;
+}
+.main-img{
+    width:100%;
+}
+footer{
+    text-align: center;
+    height: 60px;
+    background: #f4f4f4;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+.panel-body{
+    background: #f4f4f4 !important;
+}

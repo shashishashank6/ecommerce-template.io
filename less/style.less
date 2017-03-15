@@ -1,0 +1,118 @@
+@primary:#0383c0;
+.navbar{
+    margin-bottom: 20px;
+    background:@primary url(../img/navbar.png) repeat-x;
+    border:1px solid #ccc;
+    margin-top: 30px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover,.navbar-default a:hover{
+background: none;
+    color:@primary !important;
+    font-weight: bold;
+}
+.logo{
+    width: 100%;
+    margin: 40px 0 0 0;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.primary{
+    color:@primary;
+}
+.subtext{
+    color: #666;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0 0 45px;
+}
+header form{
+    margin-top: 30px;
+    float: right;
+    background: @primary;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+#products img{
+width: 130px;
+height: 130px;
+}
+.jumbotron{
+    overflow: auto;
+    padding: 0 !important;
+}
+.jumbotron p{
+    font-size: 15px;
+}
+.tablist{
+    float:left;
+    padding: 0;
+    margin: 0;
+    width:30%;
+}
+.tablist li{
+    background: #ccc;
+    list-style: none;
+    padding: 15px 10px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    color:#666;
+    font-size: 15px;
+    width:100%;
+}
+.tablist li.active{
+    background: @primary;
+    color: #fff;
+}
+.tablist li.active a{
+    color: #fff;
+}
+.tablist a{
+    color:#666;
+    display:block;
+    text-decoration: none;
+}
+.tab-content{
+    float:right;
+    width: 70%;
+    background: @primary;
+    color: #fff;
+    padding-top: 20px;
+    overflow: hidden;
+    height: 275px;
+}
+.slide-img{
+    float: right;
+    width:50%;
+}
+.tab-text{
+    float:left;
+    width: 40%;
+    margin-left: 40px;
+}
+@media(max-width:768px){
+    .slide-img{
+        display:none;
+    }
+    .tab-text{
+        float:none;
+        width:80%;
+    }
+    .navbar a:hover{
+     color:#ccc !important;
+    }
+    .navbar form{
+        display: none;
+    }
+}
+@media(max-width:960px){
+    header form{
+        width: 100% !important;
+    }
+}
+@media(max-width:600px){
+    .tab-content{
+        height: 350px;
+        overflow: auto;
+    }
+}

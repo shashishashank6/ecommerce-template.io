@@ -1,0 +1,286 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ecommerce Template</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+      <link href="css/extras.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+<div class="container">
+     <header>
+    <div class="row">
+         <div class="col-md-4 col-sm-12">
+        <h1 class="logo"><i class="glyphicon glyphicon-tag"></i>Sample<span class="primary">Store</span></h1>
+             <p class="subtext">Ecommerce Template</p>
+        </div>
+        <div class="col-md-8 col-sm-12">
+            <form class="form-inline">
+  <div class="form-group">
+    <label for="exampleInputEmail2">Email</label>
+    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter Email">
+  </div>
+                <div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" class="form-control" id="password" placeholder="Enter Password">
+  </div>
+  <button type="submit" class="btn btn-default">Login</button>
+            </form>
+        </div>
+         </div>
+    </header>
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="index.html">Whats New</a></li>
+              <li><a href="index.html">Specials</a></li>
+              <li><a href="index.html">My Account</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+             <form class="navbar-form">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search...">
+              </div>
+              <button type="submit" class="btn btn-default">Search</button>
+             </form>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+    
+      <div class="jumbotron">
+
+  <!-- Nav tabs -->
+  <ul class="tablist" role="tablist">
+    <li role="presentation" class="active"><a href="#featured" aria-controls="featured" role="tab" data-toggle="tab">Featured Item</a></li>
+    <li role="presentation"><a href="#best" aria-controls="best" role="tab" data-toggle="tab">Best Seller</a></li>
+    <li role="presentation"><a href="#discount" aria-controls="discount" role="tab" data-toggle="tab">Summer Discount</a></li>
+    <li role="presentation"><a href="#premium" aria-controls="premium" role="tab" data-toggle="tab">Premium Product</a></li>
+    <li role="presentation"><a href="#gift" aria-controls="gift" role="tab" data-toggle="tab">Gift Idea</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="featured">
+      <div class="tab-text">
+        <h2>Apple iPhone 7</h2>
+        <p>
+          iPhone 7 dramatically improves the most important aspects of the iPhone experience. It introduces advanced new camera systems. The best performance and battery life ever in an iPhone. Immersive stereo speakers. 
+          </p>
+          <a href=product.html class="btn btn-default">Read More</a>
+        </div>
+        <img src="img/iphone.png" class="slide-img">
+      </div>
+      
+    <div role="tabpanel" class="tab-pane" id="best"> 
+        <div class="tab-text">
+        <h2>Xbox One</h2>
+        <p>
+          The All in One Entertainment Device.Play Halo, Forza Horizon 2, Sunset Overdrive, Assassin's Creed Unity and Destiny, all on Xbox One.
+          </p>
+          <a href=product.html class="btn btn-default">Read More</a>
+        </div>
+        <img src="img/xbox.png" class="slide-img">
+      </div>
+      
+    <div role="tabpanel" class="tab-pane" id="discount">
+         <div class="tab-text">
+        <h2>PlayStation 4</h2>
+        <p>
+          PlayStation 4 Ultimate player 1 TB Edition bundled with 2 free games - God of War Remastered and The Last of Us Remastered.
+          </p>
+          <a href=product.html class="btn btn-default">Read More</a>
+        </div>
+        <img src="img/ps4.png" class="slide-img">
+      </div>
+    <div role="tabpanel" class="tab-pane" id="premium"> 
+        <div class="tab-text">
+        <h2>Samsung Galaxy S5</h2>
+        <p>
+         The Samsung Galaxy S5 lets you browse the web, play games and edit documents with ease, thanks to an Octa-core processor and 2 GB RAM.
+          </p>
+          <a href="#" class="btn btn-default">Read More</a>
+        </div>
+        <img src="img/s5.png" class="slide-img"></div>
+    <div role="tabpanel" class="tab-pane" id="gift">
+       <div class="tab-text">
+        <h2>MicroSoft Surface</h2>
+        <p>
+          Surface tablets have a 10.6-inch wide touch screen display and come with USB support, dual Wi-Fi antennae.
+          </p>
+          <a href=product.html class="btn btn-default">Read More</a>
+        </div>
+        <img src="img/surface.png" class="slide-img">
+      </div>
+  </div>
+
+      </div>
+    <section id="products">
+    <div class="row">
+    <div class="col-md-4">
+        <div class="thumbnail">
+        <img src="img/s5.png">
+            <div class="caption">
+            <h4 class="pull-right">Rs. 16,999</h4>
+                <h4><a href="product.html">Samsung Galaxy S5</a></h4>
+                <p>The Samsung Galaxy S5 lets you browse the web, play games and edit documents with ease, thanks to an Octa-core processor and 2 GB RAM.</p>
+            </div>
+            <div class="ratings">
+            <p class="pull-right">115 reviews</p>
+            <p>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+                </p>
+            </div>
+            </div>
+        </div>
+          <div class="col-md-4">
+              <div class="thumbnail">
+        <img src="img/xbox.png">
+            <div class="caption">
+            <h4 class="pull-right">Rs. 29,990</h4>
+                <h4><a href="#">Xbox One</a></h4>
+               <p>
+            The All in One Entertainment Device.Play Halo, Forza Horizon 2, Sunset Overdrive, Assassin's Creed Unity and Destiny, all on Xbox One.
+                </p>
+            </div>
+            <div class="ratings">
+            <p class="pull-right">98 reviews</p>
+            <p>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star-empty"></span>
+                </p>
+            </div>
+            </div>
+              </div>
+    <div class="col-md-4">
+        <div class="thumbnail">
+        <img src="img/ps4.png">
+            <div class="caption">
+            <h4 class="pull-right">Rs. 30,130</h4>
+                <h4><a href="#">Sony PS4 1TB console </a></h4>
+                <p>PlayStation 4 Ultimate player 1 TB Edition bundled with 2 free games - God of War Remastered and The Last of Us Remastered.</p>
+            </div>
+            <div class="ratings">
+            <p class="pull-right">74 reviews</p>
+            <p>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+                </p>
+            </div>
+            </div>
+        </div>
+    </div>
+        
+        
+        <div class="row">
+    <div class="col-md-4">
+        <div class="thumbnail">
+        <img src="img/tv.png">
+            <div class="caption">
+            <h4 class="pull-right">Rs. 15,599</h4>
+                <h4><a href="#">VU (32 inch) LED Smart TV</a></h4>
+                <p>
+            Enjoy playing games, watching videos on YouTube and browsing through a range of apps now on a bigger screen with this Vu 80 cm TV in your room.
+                </p>
+            </div>
+            <div class="ratings">
+            <p class="pull-right">115 reviews</p>
+            <p>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+                </p>
+            </div>
+            </div>
+        </div>
+          <div class="col-md-4">
+              <div class="thumbnail">
+        <img src="img/surface.png">
+            <div class="caption">
+            <h4 class="pull-right">Rs. 7,809</h4>
+                <h4><a href="#">Microsoft Surface RT (32GB)</a></h4>
+               <p>
+            Surface tablets have a 10.6-inch wide touch screen display and come with USB support, dual Wi-Fi antennae.
+                </p>
+            </div>
+            <div class="ratings">
+            <p class="pull-right">1250 reviews</p>
+            <p>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star-empty"></span>
+                </p>
+            </div>
+            </div>
+              </div>
+    <div class="col-md-4">
+        <div class="thumbnail">
+        <img src="img/apple-iphone-6-a1586-original-imaerm2zdxvasmes.jpeg">
+            <div class="caption">
+            <h4 class="pull-right">Rs. 29,990</h4>
+                <h4><a href="#">Apple iPhone 6 (16 GB)</a></h4>
+                <p>With a beautiful finish and a light weight, the Apple iPhone 6 is stylish and comfortable to carry.The phone has a multitouch display screen with IPS.</p>
+            </div>
+            <div class="ratings">
+            <p class="pull-right">84 reviews</p>
+            <p>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+                </p>
+            </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section>
+    
+    </section>
+      </div> <!-- /container -->
+<footer>
+      <p>
+          Template  Copyright &copy;2017 - <a href="#">Terms</a>&middot; <a href="#">Privacy</a>
+    </p>
+      </footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
